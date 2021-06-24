@@ -1,4 +1,5 @@
 import time
+import os
 from random import randint
 from random import seed
 def randomgen(num):
@@ -22,3 +23,4 @@ if ii <= 0:
 else:
     print("Please wait a few seconds while we generate your password...")
     randomgen(ii)
+    os.system("pause")
